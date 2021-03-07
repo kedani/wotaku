@@ -8,10 +8,5 @@ class PostsController < ApplicationController
 
   def create
     Post.create(content: params[:content])
-  end
-
-  private
-  def post_params
-    params.require(:post).permit(:image, :content)
-  end
+  end 
 end
