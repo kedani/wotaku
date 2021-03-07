@@ -1,7 +1,7 @@
-<h1>おしめえだ、、、</h1>
+<h1>wotaku</h1>
 <%= link_to '新規投稿', '/posts/new' %>
 <% @posts.each do |post| %>
-<div class="post">
+<div class="post" style="background-image: url(<%= post.image %>);">
     <div class="post-date">
       投稿日時：<%= post.created_at %>
     </div>
