@@ -20,6 +20,7 @@ wotaku
 ・CSS
 
 # アプリケーションのURL
+https://wotaku-33037.herokuapp.com/
 
 
 # 制作背景
