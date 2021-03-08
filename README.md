@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+wotaku
 
-Things you may want to cover:
+# アプリケーション概要
+アニメ、声優について語り合うアプリです
 
-* Ruby version
+実装機能は以下の通りです
 
-* System dependencies
+・投稿一覧機能
+・新規投稿機能
+・投稿機能
+・トップページ遷移機能
 
-* Configuration
+使用言語
+・Ruby
+・Ruby on rails
+・HTML
+・CSS
 
-* Database creation
+# アプリケーションのURL
 
-* Database initialization
 
-* How to run the test suite
+# 制作背景
+好きなアニメ、声優を好きな人同士で語り合えるためです。（別にアニメ以外のものを投稿可）
+私自身アニメ、声優が好きということもありこのような機能を持ったアプリケーションがあればとても
+便利だと感じて作成しました。
+SNSの場などでも語る場は多いと思うのですがアニメ、声優に特化した場というのはあまりないと感じたので作成しました。
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## posts テーブル
 
-* ...
+| Column   | Type   | Options                   |
+| -------- | ------ | ------------------------- |
+| content  |        | text                      |
+
